@@ -1,0 +1,16 @@
+source_set("hello_ui") {
+  sources = [
+    "hello_ui.cc",
+    "hello_ui.h",
+    "hello_untrusted_ui_config.h",
+  ]
+
+  deps = [
+    "//content/public/browser",
+    "//chrome/browser/profiles",
+    "//chrome/common", 
+    "//chrome/browser/resources/hello:resources",
+  ]
+
+  visibility = [ "*" ]  # allow others to depend on this
+}

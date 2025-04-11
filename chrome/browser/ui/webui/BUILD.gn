@@ -43,6 +43,7 @@ source_set("configs") {
     "//printing/buildflags",
     "//skia",
     "//third_party/abseil-cpp:absl",
+    "hello:hello_ui"
   ]
 
   if (safe_browsing_mode != 0) {
