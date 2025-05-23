@@ -131,8 +131,9 @@
     "includes": [2440],
     "structures": [2460],
   },
-  "$root_gen_dir/chrome/browser/resources/hello/resources.grd": {
-    "includes": [2461]
+  "<(SHARED_INTERMEDIATE_DIR)/chrome/browser/resources/hello/resources.grd": {
+      "META": {"sizes": {"includes": [51]}},
+     "includes": [2461],
   },
   "chrome/browser/resources/office_web_app/resources.grd": {
     "includes": [2480],
